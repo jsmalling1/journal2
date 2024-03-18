@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: (rgb(130, 115, 226));
+    
+    .center {
+        display: block;
+        margin-left: 200px;
+        margin-right: 200px;
+        width: 50%;
+      }
+
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media screen and (max-width:700px)
+{
+   body {
+
+    background-color: black;
+   }
+   
+    h1{ 
+        color: rgb(255, 0, 0);
+        }
+
+
+        h2{ 
+            color: rgb(32, 172, 219);
+            }
+
+    p{ 
+    color: yellow;
+    }
+
+}
